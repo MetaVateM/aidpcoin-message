@@ -1,17 +1,17 @@
-# ravencoin-message
+# aidpcoin-message
 
-Sign and Verify messages in Ravencoin in JavaScript, primarly for Node.js
+Sign and Verify messages in Aidpcoin in JavaScript, primarly for Node.js
 
 ## If you want to use it in the browser, use Browserify
 
-@ravenrebels/ravencoin-message is based on 'bitcoinjs-lib' which uses tons of Node stuff.
+@aidpproject/aidpcoin-message is based on 'bitcoinjs-lib' which uses tons of Node stuff.
 
 To make that work in the browser you need to use Browserify
 
 ## install
 
 ```
-npm install @ravenrebels/ravencoin-message
+npm install @aidpproject/aidpcoin-message
 
 //If you need to sign messages,  install CoinKey
 npm install coinkey
@@ -20,7 +20,7 @@ npm install coinkey
 ## How to use
 
 ```
-const { sign, verifyMessage } = require("@ravenrebels/ravencoin-message");
+const { sign, verifyMessage } = require("@aidpproject/aidpcoin-message");
 
 //coinkey helps us convert from WIF to privatekey
 const CoinKey = require("coinkey");
